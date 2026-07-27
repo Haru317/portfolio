@@ -183,6 +183,8 @@ footer .brand-logo { width: 54px; height: 54px; }
 
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity .7s ease, transform .7s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
+.hero-floating-logo.reveal { transform: translate(-50%, calc(-50% + 16px)); }
+.hero-floating-logo.reveal.visible { transform: translate(-50%, -50%); }
 
 @media (max-width: 800px) {
   .nav { right: 0; height: 74px; padding: 0 20px; background: rgba(247,251,253,.9); backdrop-filter: blur(14px); }
