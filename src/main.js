@@ -102,33 +102,34 @@ const copy = {
     nav: ["Practice", "Projects", "Principles", "Lineage"],
     conversation: "Start a conversation",
     menu: "Open menu",
-    role: "Independent Strategist & Framework Designer",
+    role: "Independent Researcher & Strategic Concept Designer",
     hero: [
-      "Turning complex ideas",
-      "into clear, usable systems."
+      "Giving form to what has not yet",
+      "been clearly seen or understood."
     ],
     heroBody: [
-      "I research difficult questions, clarify what matters,",
-      "and develop frameworks, learning tools and digital products around them."
+      "I connect overlooked signals and patterns across human behavior, culture,",
+      "organizations and markets, then turn them into frameworks, tools and concepts",
+      "that help people understand, evaluate and create meaningful value."
     ],
     selected: "View projects",
     portrait: "Research · Strategy · Design",
     practice: {
       label: "How I work",
-      lead: "My work usually begins with a question that is important but still difficult to explain, evaluate or act on.",
-      follow: "I investigate the context, separate assumptions from evidence, and turn what I learn into a model, tool, experience or system that can be used and tested.",
+      lead: "My work begins with signals that are often felt before they are clearly defined: a recurring tension, an overlooked possibility, or a pattern that existing categories fail to explain.",
+      follow: "I compare these signals across disciplines, identify the underlying structure, and translate it into a form that others can understand, examine, test and develop further.",
       methods: [
-        ["Investigate", "Gather context, evidence and competing explanations before defining the problem."],
-        ["Clarify", "Identify the central pattern and explain it in language other people can use."],
-        ["Design", "Translate the insight into a framework, learning experience, digital product or operating model."],
-        ["Improve", "Test the result in use, observe what fails and revise the system."]
+        ["Observe", "Gather overlooked signals, lived experience and contextual evidence without forcing an early conclusion."],
+        ["Connect", "Compare patterns across behavior, culture, organizations, markets and other relevant fields."],
+        ["Clarify", "Identify the underlying structure and make its meaning, assumptions and implications visible."],
+        ["Create", "Turn the insight into a framework, diagnostic, learning experience, narrative or digital tool that can be used and refined."]
       ]
     },
     work: {
       label: "Selected projects",
-      title: "Questions turned into working forms.",
-      intro: "These projects show how I work across human behavior, community, writing, education, culture and decision-making. Some are live tools; others are active research and development.",
-      note: "The portfolio is intentionally cross-disciplinary. The common thread is the same: making a difficult idea easier to understand, use, test and develop further.",
+      title: "Ideas made visible, usable and testable.",
+      intro: "This portfolio brings together research, frameworks, diagnostics, learning tools, narratives and digital concepts. Each project starts with something insufficiently understood and develops a clearer form through which its meaning and potential value can be examined.",
+      note: "The subjects vary, but the function remains consistent: identifying what existing categories overlook and creating tools that help people understand it, make better decisions and build something meaningful from it.",
       open: "Open"
     },
     principles: {
@@ -160,30 +161,34 @@ const copy = {
     nav: ["実践", "プロジェクト", "原則", "系譜"],
     conversation: "対話をはじめる",
     menu: "メニューを開く",
-    role: "独立系ストラテジスト・システムデザイナー",
-    hero: ["複雑な構想を整理し、", "理解し、使える仕組みへ変える。"],
+    role: "独立系リサーチャー・戦略コンセプトデザイナー",
+    hero: [
+      "まだ明確に捉えられていないものに、",
+      "理解し、活用できる形を与える。"
+    ],
     heroBody: [
-      "まだ説明しにくい問いを調べ、何が重要かを明確にし、",
-      "フレームワーク、学習ツール、デジタルプロダクトとして形にしています。"
+      "人の行動、文化、組織、市場に散在する見過ごされた兆候や共通パターンをつなぎ、",
+      "社会が意味を理解し、価値を評価・検証・創造するための",
+      "フレームワーク、ツール、構想として可視化します。"
     ],
     selected: "プロジェクトを見る",
     portrait: "リサーチ · 戦略 · デザイン",
     practice: {
       label: "仕事の進め方",
-      lead: "私の仕事は、重要ではあるものの、まだうまく説明できず、評価や行動につなげにくい問いから始まります。",
-      follow: "背景を調べ、事実と仮説を分け、見えてきた構造を、実際に使いながら検証できるモデル、ツール、体験、仕組みへ変えます。",
+      lead: "私の仕事は、まだ明確には定義されていないものの、繰り返し現れる違和感、見過ごされた可能性、既存の分類では説明できない現象から始まります。",
+      follow: "それらを異なる分野の事例や構造と照合し、背景にある共通原理を特定して、他者が理解し、検討し、試し、さらに発展させられる形へ変換します。",
       methods: [
-        ["調べる", "背景、事実、異なる解釈を集め、問題を決めつけずに捉える。"],
-        ["明確にする", "中心にある構造を見つけ、他者が理解し使える言葉にする。"],
-        ["形にする", "理解したことを、フレームワーク、学習体験、デジタルプロダクト、運用モデルへ変える。"],
-        ["改善する", "実際の利用から不具合や不足を見つけ、仕組みを更新する。"]
+        ["観察する", "結論を急がず、見過ごされている兆候、当事者の感覚、背景となる事実を集める。"],
+        ["接続する", "人の行動、文化、組織、市場など、分野を越えて現れる類似構造を照合する。"],
+        ["明確にする", "背景にある構造を特定し、その意味、前提、影響を他者が認識できる形にする。"],
+        ["形にする", "得られた理解を、フレームワーク、診断、学習体験、物語、デジタルツールとして実装し、改善可能にする。"]
       ]
     },
     work: {
       label: "主なプロジェクト",
-      title: "問いを、使える形へ。",
-      intro: "人の行動、コミュニティ、文章、教育、文化、意思決定を扱ってきたプロジェクトです。公開中のツールと、現在開発・検証している構想を含みます。",
-      note: "領域は複数にまたがりますが、共通しているのは、複雑な考えを理解しやすく、使いやすく、検証しながら育てられる形へ変えることです。",
+      title: "まだ見えていないものを、使える形へ。",
+      intro: "リサーチ、フレームワーク、診断、学習ツール、物語、デジタル構想からなるポートフォリオです。それぞれのプロジェクトは、まだ十分に理解されていない問いを捉え、その意味と可能性を検討できる形へ発展させています。",
+      note: "扱う領域は異なりますが、共通する機能は一つです。既存の分類では取りこぼされるものを特定し、人が理解し、より良く判断し、そこから意味ある価値を生み出すための道具を設計しています。",
       open: "開く"
     },
     principles: {
@@ -220,8 +225,8 @@ function render(lang = "en") {
   document.documentElement.lang = lang;
   document.title = lang === "en" ? "Clair de Lune — Project Portfolio" : "Clair de Lune — プロジェクトポートフォリオ";
   document.querySelector('meta[name="description"]').content = lang === "en"
-    ? "Clair de Lune — independent research, strategy and systems design across human behavior, community, culture, education and decision-making."
-    : "Clair de Lune — 人の行動、コミュニティ、文化、教育、意思決定を扱う、独立したリサーチ、戦略、仕組みづくりのポートフォリオ。";
+    ? "Clair de Lune — independent research and strategic concept design that turns overlooked signals into frameworks, tools and ideas people can understand, evaluate and develop."
+    : "Clair de Lune — 見過ごされた兆候や構造を捉え、人が理解・評価・発展させられるフレームワーク、ツール、構想へ変える独立系リサーチと戦略コンセプト設計のポートフォリオ。";
 
   app.innerHTML = `
     <div class="grain" aria-hidden="true"></div>
