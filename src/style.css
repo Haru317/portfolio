@@ -239,22 +239,29 @@ footer .brand-logo { width: 54px; height: 54px; }
   .brand-logo, .nav.scrolled .brand-logo { width: 54px; height: 54px; }
   .hero {
     min-height: 100svh; height: auto; grid-template-columns: 1fr;
-    grid-template-rows: calc((100svh - 74px) / 2) auto; padding-top: 74px;
+    grid-template-rows: calc((100svh - 74px) * .55) calc((100svh - 74px) * .45); padding-top: 74px;
   }
   .hero-copy {
-    min-height: calc((100svh - 74px) / 2); height: auto; padding: 16px 20px 20px; order: 2;
+    min-height: 0; height: 100%; padding: 18px 20px 16px; order: 2;
     display: flex; flex-direction: column; justify-content: center;
   }
-  .hero-title { margin: 14px 0 0; padding: 0; }
-  .role { margin-bottom: 10px; font-size: 10px; }
+  .hero-kicker { font-size: 10px; letter-spacing: .15em; }
+  .hero-title { margin: 16px 0 0; padding: 0; }
+  .role { margin-bottom: 9px; font-size: 10px; line-height: 1.25; }
   .hero h1 { font-size: clamp(21px, 5.55vw, 23px); line-height: 1.12; letter-spacing: -.052em; }
   .hero h1 span { display: block; white-space: nowrap; }
-  .hero-bottom { width: 100%; margin-top: 15px; grid-template-columns: 1fr; gap: 11px; }
+  .hero-bottom { width: 100%; margin-top: 18px; grid-template-columns: 1fr; gap: 13px; }
   .hero-bottom > p { font-size: clamp(12.5px, 3.35vw, 13.5px); line-height: 1.48; letter-spacing: -.03em; }
   .hero-bottom > p span { display: block; white-space: nowrap; }
-  .hero-bottom a { width: fit-content; }
-  .hero-portrait { min-height: 290px; height: calc((100svh - 74px) / 2); max-height: none; order: 1; }
-  .hero-portrait img { inset: 0; width: 100%; height: 100%; transform: none; object-fit: cover; object-position: center 18%; }
+  .hero-bottom a { width: fit-content; padding-top: 8px; }
+  .hero-portrait {
+    min-height: 0; height: 100%; max-height: none; order: 1;
+    background: #587793;
+  }
+  .hero-portrait img {
+    inset: 0; width: 100%; height: 100%; transform: none;
+    object-fit: contain; object-position: center center;
+  }
   .portrait-caption { right: 14px; bottom: 12px; font-size: 8px; }
 
   #practice, #projects, #principles, #lineage { scroll-margin-top: 74px; }
@@ -271,7 +278,7 @@ footer .brand-logo { width: 54px; height: 54px; }
     font-size: 11px; letter-spacing: .18em;
   }
   .statement-copy { margin: 0 0 18px; }
-  .statement-copy p { font-size: 22px; line-height: 1.22; }
+  .statement-copy p { font-size: 20px; line-height: 1.25; letter-spacing: -.035em; }
   .method { grid-template-columns: 1fr 1fr; }
   .method > div, .method > div:not(:first-child) { padding: 16px 12px 16px 0; border-bottom: 1px solid var(--line); }
   .method > div:nth-child(even) { padding-left: 12px; border-right: 0; }
@@ -295,8 +302,8 @@ footer .brand-logo { width: 54px; height: 54px; }
   .framework { padding: 0 20px 44px; grid-template-columns: 1fr; min-height: auto; gap: 0; }
   .framework-copy { display: contents; }
   .framework .eyebrow { order: 1; }
-  .framework-mark { order: 2; width: 180px; max-width: none; margin: 0 auto 22px; }
-  .framework h2 { order: 3; margin: 0; font-size: 31px; line-height: 1.08; }
+  .framework-mark { order: 2; width: 148px; max-width: none; margin: 2px auto 18px; }
+  .framework h2 { order: 3; margin: 0; font-size: 27px; line-height: 1.12; letter-spacing: -.045em; }
   .framework h2 span { white-space: normal; }
   .principles { order: 4; margin-top: 24px; }
   .principles div { grid-template-columns: 96px 1fr; padding: 13px 0; font-size: 12px; }
@@ -304,9 +311,9 @@ footer .brand-logo { width: 54px; height: 54px; }
   .identity { grid-template-columns: 1fr; gap: 0; }
   .identity-copy { display: contents; }
   .identity .eyebrow { order: 1; }
-  blockquote { order: 2; margin: 0 0 16px; font-size: clamp(28px, 7.7vw, 31px); line-height: 1.06; }
+  blockquote { order: 2; margin: 0 0 14px; font-size: clamp(24px, 6.6vw, 27px); line-height: 1.12; letter-spacing: -.045em; }
   blockquote span { white-space: nowrap; }
-  .identity-bio { order: 3; font-size: 13px; line-height: 1.5; }
+  .identity-bio { order: 3; font-size: 12px; line-height: 1.52; }
   .identity-credentials {
     order: 4; margin-top: 22px;
     display: grid; grid-template-columns: 1fr 1fr;
