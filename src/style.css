@@ -659,3 +659,49 @@ footer .brand-logo { width: 54px; height: 54px; }
   *, *:before, *:after { scroll-behavior: auto !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* JAPANESE MOBILE TYPOGRAPHY — REFINED SPACING */
+@media (max-width: 800px) {
+  html[lang="ja"] .statement-copy {
+    margin-bottom: 28px !important;
+  }
+
+  html[lang="ja"] .statement-copy p {
+    font-size: 19px !important;
+    line-height: 1.58 !important;
+    letter-spacing: .01em !important;
+  }
+
+  html[lang="ja"] .statement-copy p + p {
+    margin-top: 14px !important;
+  }
+
+  html[lang="ja"] .method {
+    margin-top: 10px !important;
+  }
+
+  html[lang="ja"] .method > div,
+  html[lang="ja"] .method > div:not(:first-child) {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  html[lang="ja"] .method span {
+    display: block !important;
+    margin-bottom: 16px !important;
+  }
+
+  html[lang="ja"] .method h3 {
+    margin: 0 0 14px !important;
+    font-size: 18px !important;
+    line-height: 1.45 !important;
+    letter-spacing: .02em !important;
+  }
+
+  html[lang="ja"] .method p {
+    margin: 0 !important;
+    font-size: 12.5px !important;
+    line-height: 1.8 !important;
+    letter-spacing: .015em !important;
+  }
+}
