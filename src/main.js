@@ -85,6 +85,7 @@ app.innerHTML = `
       <a href="#practice">Practice</a>
       <a href="#projects">Projects</a>
       <a href="#principles">Principles</a>
+      <a href="#lineage">Lineage</a>
       <a class="nav-cta" href="mailto:sppn2zu9@gmail.com">Start a conversation <span>↗</span></a>
     </nav>
     <button class="menu" aria-label="Open menu"><span></span><span></span></button>
@@ -160,7 +161,11 @@ app.innerHTML = `
       </div>
       <div class="framework-copy reveal">
         <div class="eyebrow">Crest & core principles</div>
-        <h2>Renewal needs order.<br>Order needs trust.<br>Trust becomes community.</h2>
+        <h2>
+          <span>Renewal needs order.</span>
+          <span>Order needs trust.</span>
+          <span>Trust becomes community.</span>
+        </h2>
         <div class="principles">
           <div><b>Delta</b><span>Innovation for renewal</span></div>
           <div><b>Lambda</b><span>Order for trust & continuity</span></div>
@@ -169,7 +174,7 @@ app.innerHTML = `
       </div>
     </section>
 
-    <section class="identity">
+    <section class="identity" id="lineage">
       <div class="identity-copy reveal">
         <div class="eyebrow">Lineage & practice</div>
         <blockquote>“I design what others feel but cannot yet name.”</blockquote>
