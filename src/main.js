@@ -79,7 +79,7 @@ app.innerHTML = `
   <div class="grain" aria-hidden="true"></div>
   <header class="nav">
     <a class="wordmark" href="#top" aria-label="Clair de Lune home">
-      <img class="brand-logo" src="/delta-lambda-circle-transparent.png" alt=""><span>CLAIR DE LUNE</span>
+      <img class="brand-logo" src="/delta-lambda-circle-logo.jpeg" alt=""><span>CLAIR DE LUNE</span>
     </a>
     <nav aria-label="Primary navigation">
       <a href="#practice">Practice</a>
@@ -107,7 +107,9 @@ app.innerHTML = `
         <img src="/haruno-profile.jpeg" alt="Haruno Ayukai, Value Realization Strategist" onerror="this.style.display='none'">
         <span class="portrait-caption">Systems · Strategy · Culture</span>
       </div>
-      <img class="hero-floating-logo reveal" src="/delta-lambda-circle-transparent.png" alt="Delta Lambda Circle">
+      <div class="hero-floating-logo reveal" aria-label="Delta Lambda Circle">
+        <img src="/delta-lambda-circle-logo.jpeg" alt="">
+      </div>
     </section>
 
     <section class="statement" id="practice">
@@ -153,7 +155,7 @@ app.innerHTML = `
 
     <section class="framework" id="principles">
       <div class="framework-mark reveal">
-        <img src="/delta-lambda-circle-transparent.png" alt="Delta Lambda Circle crest">
+        <img src="/delta-lambda-circle-logo.jpeg" alt="Delta Lambda Circle crest">
       </div>
       <div class="framework-copy reveal">
         <div class="eyebrow">Crest & core principles</div>
@@ -187,7 +189,7 @@ app.innerHTML = `
   </main>
 
   <footer>
-    <div class="wordmark"><img class="brand-logo" src="/delta-lambda-circle-transparent.png" alt=""><span>CLAIR DE LUNE</span></div>
+    <div class="wordmark"><img class="brand-logo" src="/delta-lambda-circle-logo.jpeg" alt=""><span>CLAIR DE LUNE</span></div>
     <p>Systems · Strategy · Culture</p>
     <p>© ${new Date().getFullYear()} Clair de Lune</p>
   </footer>
