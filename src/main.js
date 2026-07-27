@@ -102,7 +102,7 @@ const copy = {
     nav: ["Practice", "Projects", "Principles", "Lineage"],
     conversation: "Start a conversation",
     menu: "Open menu",
-    role: "Independent Strategist & Systems Designer",
+    role: "Independent Strategist & Framework Designer",
     hero: [
       "Turning complex ideas",
       "into clear, usable systems."
