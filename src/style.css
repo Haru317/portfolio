@@ -354,55 +354,52 @@ footer .brand-logo { width: 54px; height: 54px; }
   *, *:before, *:after { scroll-behavior: auto !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
-
-/* FINAL MOBILE HERO — SINGLE SCREEN */
+/* FINAL MOBILE HERO — BALANCED */
 @media (max-width: 800px) {
   .nav,
   .nav.scrolled {
-    height: 50px !important;
-    padding: 0 16px !important;
+    height: 60px !important;
+    padding: 0 18px !important;
   }
 
   .brand-logo,
   .nav.scrolled .brand-logo {
-    width: 38px !important;
-    height: 38px !important;
+    width: 46px !important;
+    height: 46px !important;
   }
 
   .wordmark {
-    gap: 8px !important;
-    font-size: 10px !important;
+    gap: 9px !important;
+    font-size: 10.5px !important;
     letter-spacing: .14em !important;
   }
 
   .lang-switch {
-    margin-right: 6px !important;
+    margin-right: 7px !important;
   }
 
   .menu {
-    width: 28px !important;
-    height: 28px !important;
-    padding: 5px !important;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 6px !important;
   }
 
   .nav nav,
   .nav.scrolled nav {
-    inset: 50px 0 auto !important;
+    inset: 60px 0 auto !important;
   }
 
   .hero {
-    width: 100% !important;
     min-height: 100svh !important;
     height: 100svh !important;
-    padding-top: 50px !important;
+    padding-top: 60px !important;
     grid-template-columns: 1fr !important;
-    grid-template-rows: 47svh calc(53svh - 50px) !important;
+    grid-template-rows: 43svh calc(57svh - 60px) !important;
     overflow: hidden !important;
   }
 
   .hero-portrait {
     order: 1 !important;
-    width: 100% !important;
     height: 100% !important;
     min-height: 0 !important;
   }
@@ -415,38 +412,37 @@ footer .brand-logo { width: 54px; height: 54px; }
   }
 
   .portrait-caption {
-    right: 12px !important;
-    bottom: 9px !important;
-    font-size: 7px !important;
+    right: 14px !important;
+    bottom: 10px !important;
+    font-size: 7.5px !important;
   }
 
   .hero-copy {
     order: 2 !important;
     width: 100% !important;
-    min-width: 0 !important;
-    height: 100% !important;
     min-height: 0 !important;
-    padding: 14px 20px 14px !important;
+    height: 100% !important;
+    padding: 18px 20px 18px !important;
     justify-content: flex-start !important;
     overflow: hidden !important;
   }
 
   .hero-kicker {
-    font-size: 8px !important;
+    font-size: 9px !important;
     line-height: 1.2 !important;
     letter-spacing: .14em !important;
   }
 
   .hero-title {
-    margin: 9px 0 0 !important;
+    margin: 10px 0 0 !important;
   }
 
   .role {
     display: block !important;
-    margin-bottom: 9px !important;
-    font-size: 9px !important;
+    margin-bottom: 11px !important;
+    font-size: 10.5px !important;
     font-weight: 700 !important;
-    line-height: 1.3 !important;
+    line-height: 1.32 !important;
     letter-spacing: .055em !important;
     white-space: normal !important;
   }
@@ -455,9 +451,9 @@ footer .brand-logo { width: 54px; height: 54px; }
     width: 100% !important;
     max-width: none !important;
     margin: 0 !important;
-    font-size: clamp(19px, 5.05vw, 21px) !important;
-    line-height: 1.1 !important;
-    letter-spacing: -.045em !important;
+    font-size: clamp(23px, 6vw, 26px) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -.042em !important;
   }
 
   .hero h1 span {
@@ -468,17 +464,17 @@ footer .brand-logo { width: 54px; height: 54px; }
   .hero-bottom {
     width: 100% !important;
     max-width: none !important;
-    margin-top: 12px !important;
-    gap: 8px !important;
+    margin-top: 15px !important;
+    gap: 10px !important;
   }
 
   .hero-bottom > p {
     width: 100% !important;
     max-width: none !important;
     margin: 0 !important;
-    font-size: 10.5px !important;
-    line-height: 1.4 !important;
-    letter-spacing: -.015em !important;
+    font-size: 12.5px !important;
+    line-height: 1.48 !important;
+    letter-spacing: -.01em !important;
   }
 
   .hero-bottom > p span {
@@ -487,7 +483,7 @@ footer .brand-logo { width: 54px; height: 54px; }
   }
 
   .hero-bottom a {
-    padding: 5px 0 4px !important;
-    font-size: 9px !important;
+    padding: 7px 0 5px !important;
+    font-size: 10px !important;
   }
 }
