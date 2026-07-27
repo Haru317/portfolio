@@ -356,14 +356,15 @@ footer .brand-logo { width: 54px; height: 54px; }
 }
 
 .project-arrow--disabled {
-  opacity: .28;
+  opacity: .35;
   pointer-events: none;
 }
 
 .project-arrow--disabled::before,
 .project-arrow--disabled::after {
-  opacity: .55;
+  opacity: 1;
 }
+
 
 /* MOBILE HERO — FINAL OPTIMIZED VERSION */
 @media (max-width: 800px) {
