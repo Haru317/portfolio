@@ -1,7 +1,4 @@
 import "./style.css";
-${p.href
-  ? `<span class="project-arrow" aria-hidden="true"></span>`
-  : `<span class="project-arrow project-arrow--disabled" aria-hidden="true"></span>`}
 
 const projects = [
   {
@@ -339,7 +336,9 @@ function render(lang = "en") {
               </div>
               <div class="project-action">
                 <span class="status">${p.status[lang]}</span>
-            ${p.href ? `<span class="project-arrow" aria-hidden="true"></span>` : `<span class="no-link">—</span>`}
+ ${p.href
+  ? `<span class="project-arrow" aria-hidden="true"></span>`
+  : `<span class="project-arrow project-arrow--disabled" aria-hidden="true"></span>`}
               </div>
             ${p.href ? `</a>` : `</article>`}
           `).join("")}
