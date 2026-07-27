@@ -567,3 +567,48 @@ footer .brand-logo { width: 54px; height: 54px; }
     font-size: 14px;
   }
 }
+
+/* JAPANESE MOBILE COLUMN FIX */
+@media (max-width: 800px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  html[lang="ja"] .hero,
+  html[lang="ja"] .hero-copy,
+  html[lang="ja"] .statement,
+  html[lang="ja"] .portfolio,
+  html[lang="ja"] .framework,
+  html[lang="ja"] .identity,
+  html[lang="ja"] .contact {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  html[lang="ja"] .hero h1 {
+    font-size: clamp(22px, 5.7vw, 25px) !important;
+    line-height: 1.16 !important;
+    letter-spacing: -.045em !important;
+    overflow-wrap: anywhere;
+  }
+
+  html[lang="ja"] .hero h1 span {
+    display: block !important;
+    white-space: normal !important;
+    max-width: 100% !important;
+  }
+
+  html[lang="ja"] .hero-bottom > p {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 12.5px !important;
+    line-height: 1.65 !important;
+    overflow-wrap: anywhere;
+  }
+}
