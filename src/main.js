@@ -326,9 +326,16 @@ function render(lang = "en") {
           <p>${t.work.intro}</p>
         </div>
         <div class="project-list">
-          ${projects.map((p) => `
-            ${p.href ? `<a class="project reveal ${p.featured ? "featured" : ""}" href="${p.href}" target="_blank" rel="noreferrer" aria-label="${t.work.open} ${p.title}">` : `<article class="project reveal ${p.featured ? "featured" : ""}">`}
-              <div class="project-meta"><span>${p.index}</span><span>${p.category[lang]}</span></div>
+        ${p.href
+  ? `
+    <span class="project-arrow" aria-hidden="true">
+      <svg viewBox="0 0 24 24" focusable="false">
+        <path d="M7 17L17 7"></path>
+        <path d="M9 7H17V15"></path>
+      </svg>
+    </span>
+  `
+  : `<span class="no-link">—</span>`}
               <div class="project-main">
                 <h3>${p.title}</h3>
                 <p>${p.subtitle[lang]}</p>
