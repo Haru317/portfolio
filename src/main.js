@@ -337,7 +337,7 @@ function render(lang = "en") {
               </div>
               <div class="project-action">
                 <span class="status">${p.status[lang]}</span>
-                ${p.href ? `<span class="project-arrow">↗</span>` : `<span class="no-link">—</span>`}
+            ${p.href ? `<span class="project-arrow" aria-hidden="true"></span>` : `<span class="no-link">—</span>`}
               </div>
             ${p.href ? `</a>` : `</article>`}
           `).join("")}
