@@ -104,7 +104,7 @@ app.innerHTML = `
         </div>
       </div>
       <div class="hero-portrait reveal">
-        <img src="/haruno-profile.jpeg" alt="Haruno Ayukai, Value Realization Strategist">
+        <img src="/haruno-profile.jpeg" alt="Haruno Ayukai, Value Realization Strategist" onerror="this.style.display='none'">
         <span class="portrait-caption">Systems · Strategy · Culture</span>
       </div>
     </section>
