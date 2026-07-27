@@ -104,7 +104,10 @@ const copy = {
     menu: "Open menu",
     role: "Value Realization Strategist",
     hero: ["Revealing invisible value.", "Designing the systems that let it grow."],
-    heroBody: "I translate latent human, organizational and cultural value into clear strategy, working systems and measurable progress.",
+    heroBody: [
+      "I translate latent human, organizational and cultural value",
+      "into clear strategy, systems and measurable frameworks."
+    ],
     selected: "View selected work",
     portrait: "Systems · Strategy · Culture",
     practice: {
@@ -156,7 +159,10 @@ const copy = {
     menu: "メニューを開く",
     role: "価値実現ストラテジスト",
     hero: ["見えない価値を明らかにする。", "それが育つ仕組みを設計する。"],
-    heroBody: "人・組織・文化に潜在する価値を、明確な戦略、機能する仕組み、測定可能な前進へ翻訳します。",
+    heroBody: [
+      "人・組織・文化に潜在する価値を、",
+      "明確な戦略、システム、測定可能なフレームワークへ翻訳します。"
+    ],
     selected: "実績を見る",
     portrait: "仕組み · 戦略 · 文化",
     practice: {
@@ -244,7 +250,7 @@ function render(lang = "en") {
             <h1><span>${t.hero[0]}</span> <span>${t.hero[1]}</span></h1>
           </div>
           <div class="hero-bottom reveal">
-            <p>${t.heroBody}</p>
+            <p>${t.heroBody.map((line) => `<span>${line}</span>`).join("")}</p>
             <a href="#projects">${t.selected} <span>↓</span></a>
           </div>
         </div>
