@@ -148,8 +148,7 @@ const copy = {
     ],
     heroBody: [
       "I connect overlooked signals and patterns across human behavior, culture,",
-      "organizations and markets, then turn them into frameworks, tools and concepts",
-      "that help people understand, evaluate and create meaningful value."
+      "organizations and markets, then turn them into frameworks, tools and concepts that help people understand, evaluate and create meaningful value."
     ],
     selected: "View projects",
     portrait: "Research · Strategy · Design",
