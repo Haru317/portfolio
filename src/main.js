@@ -150,7 +150,7 @@ const copy = {
     },
     contact: {
       label: "Work together",
-      title: "Have something valuable the world cannot see clearly yet?"
+      title: ["Have something valuable", "the world cannot see clearly yet?"]
     }
   },
   ja: {
@@ -205,7 +205,7 @@ const copy = {
     },
     contact: {
       label: "協働",
-      title: "世界がまだ明確に捉えられていない価値を、お持ちですか？"
+      title: ["世界がまだ明確に捉えられていない価値を、", "お持ちですか？"]
     }
   }
 };
@@ -331,7 +331,7 @@ function render(lang = "en") {
       <section class="contact">
         <div class="contact-inner reveal">
           <div class="eyebrow">${t.contact.label}</div>
-          <h2>${t.contact.title}</h2>
+          <h2>${t.contact.title.map((line) => `<span>${line}</span>`).join("")}</h2>
           <a href="mailto:sppn2zu9@gmail.com">${t.conversation} <span>↗</span></a>
         </div>
       </section>
