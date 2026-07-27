@@ -174,9 +174,9 @@ const copy = {
       label: "Crest & core principles",
       lines: ["Renewal needs order.", "Order needs trust.", "Trust becomes community."],
       rows: [
-        ["Delta", "Innovation for renewal"],
-        ["Lambda", "Order for trust & continuity"],
-        ["Circle", "Community for mutual prosperity"]
+        ["Δ (Delta)", "Innovation for renewal"],
+        ["Λ (Lambda)", "Order for trust & continuity"],
+        ["◯ (Circle)", "Community for mutual prosperity"]
       ]
     },
     lineage: {
