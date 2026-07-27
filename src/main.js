@@ -1,7 +1,8 @@
 import "./style.css";
 ${p.href
   ? `<span class="project-arrow" aria-hidden="true"></span>`
-  : `<span class="no-link">—</span>`}
+  : `<span class="project-arrow project-arrow--disabled" aria-hidden="true"></span>`}
+
 const projects = [
   {
     category: { en: "Human Systems", ja: "人間システム" },
