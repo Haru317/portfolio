@@ -58,32 +58,33 @@ a { color: inherit; text-decoration: none; }
   position: relative;
   min-height: 100svh; height: 100svh; padding-top: 108px;
   display: grid;
-  grid-template-columns: 62% 38%;
+  grid-template-columns: 70% 30%;
   background: linear-gradient(120deg, var(--ice) 0%, #eaf4fa 55%, #c9dfed 100%);
   overflow: hidden;
 }
 .hero-copy {
   min-height: 0; height: 100%;
-  padding: 18px 5vw 28px 7.2vw;
-  display: flex; flex-direction: column; justify-content: flex-start;
+  padding: 20px 2.8vw 28px 5.2vw;
+  display: grid; grid-template-rows: auto auto auto 1fr; align-content: start;
 }
 .hero-kicker, .eyebrow {
   text-transform: uppercase; letter-spacing: .17em; font-size: 11px; font-weight: 600;
 }
 .hero-kicker { color: var(--blue); }
-.hero-title { margin: clamp(26px, 3.6vh, 38px) 0 0; padding: 0; }
+.hero-title { margin: clamp(22px, 3vh, 30px) 0 0; padding: 0; }
 .role { display: block; margin-bottom: 18px; color: var(--soft-ink); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; }
 .hero h1 {
-  max-width: 720px; margin: 0;
-  font-size: clamp(36px, 3.4vw, 52px); line-height: 1.1; letter-spacing: -.028em; font-weight: 400;
+  max-width: none; margin: 0;
+  font-size: clamp(36px, 3.35vw, 52px); line-height: 1.1; letter-spacing: -.035em; font-weight: 400;
 }
 .hero h1 span { display: block; white-space: nowrap; }
 .hero-floating-logo { display: none !important; }
 .hero-bottom {
-  max-width: 610px; margin-top: clamp(28px, 4vh, 38px);
-  display: grid; grid-template-columns: 1fr auto; gap: 42px; align-items: end;
+  width: min(100%, 750px); max-width: none; margin-top: clamp(24px, 3.4vh, 32px);
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 30px; align-items: end;
 }
 .hero-bottom > p { margin: 0; color: var(--soft-ink); font-size: 15px; line-height: 1.7; }
+.hero-bottom > p span { display: block; white-space: nowrap; }
 .hero-bottom a {
   padding: 12px 0 8px; border-bottom: 1px solid rgba(35,60,88,.35);
   white-space: nowrap; text-transform: uppercase; letter-spacing: .1em; font-size: 11px;
@@ -96,7 +97,7 @@ a { color: inherit; text-decoration: none; }
   pointer-events: none;
 }
 .hero-portrait img {
-  position: absolute; inset: 0; width: 100%; height: 100%; max-width: none;
+  position: absolute; inset: -34px 0 auto; width: 100%; height: calc(100% + 34px); max-width: none;
   transform: none; object-fit: cover; object-position: center top;
   filter: saturate(.88) brightness(1.03);
 }
@@ -206,6 +207,7 @@ footer .brand-logo { width: 54px; height: 54px; }
   .hero h1 { font-size: clamp(34px, 9.7vw, 46px); line-height: 1.1; }
   .hero h1 span { white-space: normal; }
   .hero-bottom { grid-template-columns: 1fr; gap: 22px; }
+  .hero-bottom > p span { white-space: normal; }
   .hero-bottom a { width: fit-content; }
   .hero-portrait { min-height: 64svh; height: 64svh; order: 1; }
   .hero-portrait img { inset: 0; width: 100%; height: 100%; transform: none; object-fit: cover; object-position: center 24%; }
@@ -248,6 +250,7 @@ footer .brand-logo { width: 54px; height: 54px; }
   .nav nav, .nav.scrolled nav { position: static; gap: clamp(10px, 1.4vw, 18px); margin-left: auto; font-size: 12px; }
   .nav-cta { padding: 10px 12px; }
   .nav nav > a:not(.nav-cta) { display: block; }
+  .hero h1 { font-size: clamp(34px, 3.4vw, 40px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
