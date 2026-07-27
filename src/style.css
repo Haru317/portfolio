@@ -355,15 +355,7 @@ footer .brand-logo { width: 54px; height: 54px; }
   .reveal { opacity: 1; transform: none; }
 }
 
-.project-arrow--disabled {
-  opacity: .35;
-  pointer-events: none;
-}
 
-.project-arrow--disabled::before,
-.project-arrow--disabled::after {
-  opacity: 1;
-}
 
 
 /* MOBILE HERO — FINAL OPTIMIZED VERSION */
@@ -503,54 +495,47 @@ footer .brand-logo { width: 54px; height: 54px; }
     font-size: 10px !important;
   }
 }
-/* PROJECT LINK ARROW — DESKTOP & MOBILE */
+/* PROJECT ARROW — FINAL SVG VERSION */
 .project-arrow {
-  position: relative;
   width: 42px;
   height: 42px;
   flex: 0 0 42px;
-  display: block;
-  border: 1px solid var(--line);
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(35, 60, 88, .18);
   border-radius: 50%;
   color: var(--navy);
+  background: rgba(255, 255, 255, .16);
   transition:
     background .2s ease,
     color .2s ease,
+    border-color .2s ease,
     transform .2s ease;
 }
 
-.project-arrow::before {
-  content: "";
-  position: absolute;
-  left: 12px;
-  top: 20px;
+.project-arrow svg {
   width: 17px;
-  height: 1px;
-  background: currentColor;
-  transform: rotate(-45deg);
-  transform-origin: center;
-}
-
-.project-arrow::after {
-  content: "";
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 10px;
-  height: 10px;
-  border-top: 1px solid currentColor;
-  border-right: 1px solid currentColor;
+  height: 17px;
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .project:hover .project-arrow {
   color: #fff;
   background: var(--navy);
+  border-color: var(--navy);
   transform: translate(2px, -2px);
 }
 
-.project-arrow--disabled {
-  opacity: .45;
-  pointer-events: none;
+.no-link {
+  padding: 9px;
+  color: #aab9c5;
+  font-size: 15px;
+  line-height: 1;
 }
 
 /* DESKTOP HERO ROLE */
@@ -564,7 +549,7 @@ footer .brand-logo { width: 54px; height: 54px; }
   }
 }
 
-/* MOBILE ARROW SIZE */
+/* MOBILE */
 @media (max-width: 800px) {
   .project-arrow {
     width: 38px;
@@ -572,14 +557,13 @@ footer .brand-logo { width: 54px; height: 54px; }
     flex-basis: 38px;
   }
 
-  .project-arrow::before {
-    left: 11px;
-    top: 18px;
+  .project-arrow svg {
     width: 16px;
+    height: 16px;
   }
 
-  .project-arrow::after {
-    top: 8px;
-    right: 8px;
+  .no-link {
+    padding: 8px;
+    font-size: 14px;
   }
 }
