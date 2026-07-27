@@ -96,7 +96,11 @@ app.innerHTML = `
         <div class="hero-kicker reveal">Haruno Ayukai · Clair de Lune</div>
         <div class="hero-title reveal">
           <span class="role">Value Realization Strategist</span>
-          <h1>Revealing invisible value.<br>Designing the systems<br>that let it grow.</h1>
+          <h1>
+            <span>Revealing invisible value.</span>
+            <span>Designing the systems</span>
+            <span>that let it grow.</span>
+          </h1>
         </div>
         <div class="hero-bottom reveal">
           <p>I translate latent human, organizational and cultural value into clear strategy, working systems and measurable progress.</p>
@@ -168,7 +172,7 @@ app.innerHTML = `
     <section class="identity">
       <div class="identity-copy reveal">
         <div class="eyebrow">Lineage & practice</div>
-        <blockquote>“I perceive what remains unspoken—and give it form.”</blockquote>
+        <blockquote>“I design what others feel but cannot yet name.”</blockquote>
         <p class="identity-bio">Born into a centuries-old family of regional stewards, scholars and artists, within a 1,300-year living tradition that has kept the same flame alight for more than a millennium. I inherited a free, sovereign temperament, yet was raised in a world where duty, restraint and consideration for others were quietly absolute. That tension trained me to read the human dynamics beneath decisions, institutions and culture. It is now the foundation of my work: revealing invisible capital and transforming it into measurable impact.</p>
       </div>
       <div class="identity-credentials reveal">
