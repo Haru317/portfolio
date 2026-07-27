@@ -104,7 +104,7 @@ const copy = {
     menu: "Open menu",
     role: "Value Realization Strategist",
     hero: [
-      "Revealing invisible value.", \n "Designing the systems that let it grow."],
+      "Revealing invisible value.", "Designing the systems that let it grow."],
     heroBody: [
       "I translate latent human, organizational and cultural value",
       "into clear strategy, systems and measurable frameworks."
