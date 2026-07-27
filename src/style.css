@@ -87,7 +87,7 @@ html[lang="ja"] blockquote span { white-space: normal; }
   position: relative;
   min-height: 100svh; height: 100svh; padding-top: 108px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(44%, calc(65.33% - 1.67vw), 52%);
+  grid-template-columns: minmax(0, 1fr) clamp(410px, calc(90.33svh - 97.6px), 720px);
   background: linear-gradient(120deg, var(--ice) 0%, #eaf4fa 55%, #c9dfed 100%);
   overflow: hidden;
 }
@@ -128,7 +128,7 @@ html[lang="ja"] blockquote span { white-space: normal; }
 }
 .hero-portrait img {
   position: absolute; inset: 0; width: 100%; height: 100%; max-width: none;
-  transform: none; object-fit: cover; object-position: center 18%;
+  transform: none; object-fit: contain; object-position: center bottom;
   filter: saturate(.88) brightness(1.03);
 }
 .portrait-caption {
@@ -246,11 +246,11 @@ footer .brand-logo { width: 54px; height: 54px; }
   }
   .hero-title { margin: 14px 0 0; padding: 0; }
   .role { margin-bottom: 10px; font-size: 10px; }
-  .hero h1 { font-size: clamp(27px, 7.3vw, 30px); line-height: 1.05; letter-spacing: -.035em; }
-  .hero h1 span { display: block; white-space: normal; }
+  .hero h1 { font-size: clamp(17.5px, 4.65vw, 18.5px); line-height: 1.14; letter-spacing: -.04em; }
+  .hero h1 span { display: block; white-space: nowrap; }
   .hero-bottom { width: 100%; margin-top: 15px; grid-template-columns: 1fr; gap: 11px; }
-  .hero-bottom > p { font-size: 14px; line-height: 1.5; }
-  .hero-bottom > p span { display: inline; white-space: normal; }
+  .hero-bottom > p { font-size: clamp(11px, 3vw, 11.8px); line-height: 1.5; letter-spacing: -.015em; }
+  .hero-bottom > p span { display: block; white-space: nowrap; }
   .hero-bottom a { width: fit-content; }
   .hero-portrait { min-height: 290px; height: calc((100svh - 74px) / 2); max-height: none; order: 1; }
   .hero-portrait img { inset: 0; width: 100%; height: 100%; transform: none; object-fit: cover; object-position: center 18%; }
@@ -323,11 +323,15 @@ footer .brand-logo { width: 54px; height: 54px; }
   footer { padding: 22px 20px; grid-template-columns: 1fr auto; gap: 14px; }
   footer > p:nth-child(2) { display: none; }
   footer .brand-logo { width: 26px; height: 26px; box-shadow: 0 4px 10px rgba(10,19,29,.18); }
+  html[lang="ja"] .hero-bottom > p { font-size: 11px; }
 }
 
 @media (min-width: 801px) and (max-width: 1180px) {
   .nav, .nav.scrolled { right: 0; height: 92px; padding: 0 3vw; }
-  .hero { padding-top: 92px; }
+  .hero {
+    padding-top: 92px;
+    grid-template-columns: minmax(0, 1fr) clamp(410px, calc(90.33svh - 83.1px), 720px);
+  }
   .brand-logo, .nav.scrolled .brand-logo { width: 68px; height: 68px; }
   .wordmark { gap: 10px; font-size: 11px; }
   .nav > .wordmark > span { position: static; }
