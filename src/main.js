@@ -141,7 +141,7 @@ const copy = {
     nav: ["Practice", "Projects", "Principles", "Lineage"],
     conversation: "Start a conversation",
     menu: "Open menu",
-    role: "Independent Strategist, Framework & Concept Designer",
+    role: "INDEPENDENT STRATEGIST<br>FRAMEWORK & CONCEPT DESIGNER",
     hero: [
       "Giving form to what has not yet",
       "been clearly seen or understood."
@@ -200,7 +200,7 @@ const copy = {
     nav: ["実践", "プロジェクト", "原則", "系譜"],
     conversation: "対話をはじめる",
     menu: "メニューを開く",
-    role: "独立系ストラテジスト・フレームワーク＆コンセプトデザイナー",
+    role: "独立系ストラテジスト<br>フレームワーク＆コンセプトデザイナー",
     hero: [
       "まだ明確に捉えられていないものに、",
       "理解し、活用できる形を与える。"
