@@ -354,7 +354,9 @@ footer .brand-logo { width: 54px; height: 54px; }
   *, *:before, *:after { scroll-behavior: auto !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
-/* FINAL MOBILE HERO — BALANCED */
+
+
+/* MOBILE HERO — FINAL OPTIMIZED VERSION */
 @media (max-width: 800px) {
   .nav,
   .nav.scrolled {
@@ -390,18 +392,22 @@ footer .brand-logo { width: 54px; height: 54px; }
   }
 
   .hero {
-    min-height: 100svh !important;
-    height: 100svh !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
     padding-top: 60px !important;
+    display: grid !important;
     grid-template-columns: 1fr !important;
-    grid-template-rows: 43svh calc(57svh - 60px) !important;
-    overflow: hidden !important;
+    grid-template-rows: 48svh auto !important;
+    overflow: visible !important;
   }
 
   .hero-portrait {
     order: 1 !important;
-    height: 100% !important;
+    width: 100% !important;
+    height: 48svh !important;
     min-height: 0 !important;
+    overflow: hidden !important;
   }
 
   .hero-portrait img {
@@ -420,11 +426,11 @@ footer .brand-logo { width: 54px; height: 54px; }
   .hero-copy {
     order: 2 !important;
     width: 100% !important;
+    height: auto !important;
     min-height: 0 !important;
-    height: 100% !important;
-    padding: 18px 20px 18px !important;
+    padding: 20px 20px 26px !important;
     justify-content: flex-start !important;
-    overflow: hidden !important;
+    overflow: visible !important;
   }
 
   .hero-kicker {
@@ -434,12 +440,12 @@ footer .brand-logo { width: 54px; height: 54px; }
   }
 
   .hero-title {
-    margin: 10px 0 0 !important;
+    margin: 11px 0 0 !important;
   }
 
   .role {
     display: block !important;
-    margin-bottom: 11px !important;
+    margin-bottom: 13px !important;
     font-size: 10.5px !important;
     font-weight: 700 !important;
     line-height: 1.32 !important;
@@ -464,8 +470,8 @@ footer .brand-logo { width: 54px; height: 54px; }
   .hero-bottom {
     width: 100% !important;
     max-width: none !important;
-    margin-top: 15px !important;
-    gap: 10px !important;
+    margin-top: 18px !important;
+    gap: 13px !important;
   }
 
   .hero-bottom > p {
@@ -473,7 +479,7 @@ footer .brand-logo { width: 54px; height: 54px; }
     max-width: none !important;
     margin: 0 !important;
     font-size: 12.5px !important;
-    line-height: 1.48 !important;
+    line-height: 1.52 !important;
     letter-spacing: -.01em !important;
   }
 
@@ -483,7 +489,7 @@ footer .brand-logo { width: 54px; height: 54px; }
   }
 
   .hero-bottom a {
-    padding: 7px 0 5px !important;
+    padding: 7px 0 6px !important;
     font-size: 10px !important;
   }
 }
