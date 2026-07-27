@@ -179,7 +179,10 @@ app.innerHTML = `
     <section class="identity" id="lineage">
       <div class="identity-copy reveal">
         <div class="eyebrow">Lineage & practice</div>
-        <blockquote>“I design what others feel but cannot yet name.”</blockquote>
+        <blockquote>
+          <span>“I design what others feel</span>
+          <span>but cannot yet name.”</span>
+        </blockquote>
         <p class="identity-bio">Born into a centuries-old family of regional stewards, scholars and artists, within a 1,300-year living tradition that has kept the same flame alight for more than a millennium. I inherited a free, sovereign temperament, yet was raised in a world where duty, restraint and consideration for others were quietly absolute. That tension trained me to read the human dynamics beneath decisions, institutions and culture. It is now the foundation of my work: revealing invisible capital and transforming it into measurable impact.</p>
       </div>
       <div class="identity-credentials reveal">
