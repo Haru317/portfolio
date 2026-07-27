@@ -255,7 +255,7 @@ function render(lang = "en") {
           </div>
         </div>
         <div class="hero-portrait reveal">
-          <img src="/haruno-profile.jpeg" alt="Haruno Ayukai" onerror="this.style.display='none'">
+          <img src="/haruno-profile-v2.svg" alt="Haruno Ayukai" onerror="this.style.display='none'">
           <span class="portrait-caption">${t.portrait}</span>
         </div>
       </section>
