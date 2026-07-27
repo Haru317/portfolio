@@ -326,16 +326,10 @@ function render(lang = "en") {
           <p>${t.work.intro}</p>
         </div>
         <div class="project-list">
-        ${p.href
-  ? `
-    <span class="project-arrow" aria-hidden="true">
-      <svg viewBox="0 0 24 24" focusable="false">
-        <path d="M7 17L17 7"></path>
-        <path d="M9 7H17V15"></path>
-      </svg>
-    </span>
-  `
-  : `<span class="no-link">—</span>`}
+
+
+
+  
               <div class="project-main">
                 <h3>${p.title}</h3>
                 <p>${p.subtitle[lang]}</p>
@@ -343,17 +337,10 @@ function render(lang = "en") {
               </div>
               <div class="project-action">
                 <span class="status">${p.status[lang]}</span>
-
 ${p.href
-  ? `
-    <span class="project-arrow" aria-hidden="true">
-      <svg viewBox="0 0 24 24" focusable="false">
-        <path d="M7 17L17 7"></path>
-        <path d="M9 7H17V15"></path>
-      </svg>
-    </span>
-  `
-  : `<span class="no-link">—</span>`}
+  ? '<span class="project-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M7 17L17 7"></path><path d="M9 7H17V15"></path></svg></span>'
+  : '<span class="no-link">—</span>'}
+  
               </div>
             ${p.href ? `</a>` : `</article>`}
           `).join("")}
