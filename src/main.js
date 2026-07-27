@@ -4,25 +4,31 @@ const projects = [
   {
     category: { en: "Human Systems", ja: "人間システム" },
     index: "01",
-    title: "Human Connection Ecosystem",
+    title: "HCE — Human Connection Ecosystem",
     subtitle: {
-      en: "A working model for understanding what helps people join, trust, contribute and remain part of a community.",
-      ja: "人がコミュニティに参加し、信頼し、貢献し、関わり続ける条件を整理した実践モデル。"
+      en: "A framework for diagnosing why people, customers, talent and resources are present, yet fail to translate into trust, participation, contribution, retention or growth. It reveals where perception, motivation, relationships and roles fall out of alignment, helping individuals and organizations reduce friction, restore value exchange and build more sustainable value creation.",
+      ja: "個人、組織、ブランド、コミュニティの中で、人材・顧客・資源・意欲は存在しているのに、信頼、参加、貢献、継続、成長へつながらない原因を特定するフレームワーク。価値交換のどこで認識・関係・動機・役割がずれているかを可視化し、離脱、停滞、分断、活用不足を、より滑らかなアライメントと持続的な価値創造へ変えます。"
     },
-    tags: { en: ["Behavior", "Community", "Systems"], ja: ["行動", "コミュニティ", "仕組み"] },
-    href: "https://hce.pages.dev/",
+    tags: {
+      en: ["Value Exchange", "Alignment", "Sustainable Growth"],
+      ja: ["価値交換", "アライメント", "持続的成長"]
+    },
+    href: "https://structureofconnection.pages.dev/",
     status: { en: "Live", ja: "公開中" },
     featured: true
   },
   {
-    category: { en: "Talent & Community", ja: "人材・コミュニティ" },
+    category: { en: "Talent & Team Formation", ja: "人材発見・組成" },
     index: "02",
     title: "Pendle Talent Galaxy",
     subtitle: {
-      en: "A digital concept for making overlooked strengths visible and helping people find where their abilities can work together.",
-      ja: "見過ごされている強みを可視化し、互いの能力が活きる組み合わせを見つけるためのデジタル構想。"
+      en: "A talent discovery and team-formation platform that makes overlooked strengths, working compatibility and contribution potential visible—helping organizations reduce the mismatch between capable people and the roles or collaborators they need.",
+      ja: "肩書や経歴だけでは見えない個人の強み、相性、貢献可能性を可視化し、採用、協働、プロジェクト編成で「能力はあるのに活かされない」ミスマッチを減らし、見過ごされた価値創造を促す人材発見・組成プラットフォーム。"
     },
-    tags: { en: ["Talent", "Matching", "Community"], ja: ["才能", "マッチング", "コミュニティ"] },
+    tags: {
+      en: ["Talent Discovery", "Team Formation", "Value Creation"],
+      ja: ["人材発見", "チーム組成", "価値創造"]
+    },
     href: "https://pendle-talent-galaxy.pages.dev/",
     status: { en: "Live", ja: "公開中" },
     featured: true
@@ -32,10 +38,13 @@ const projects = [
     index: "03",
     title: "Engage Audit",
     subtitle: {
-      en: "A diagnostic tool that identifies where writing loses attention, clarity or momentum, and what should be improved.",
-      ja: "文章のどこで注意・理解・読了意欲が途切れるかを特定し、改善点を示す診断ツール。"
+      en: "An editorial diagnostic for newsletters, articles, proposals and sales content that identifies where readers lose clarity, interest or momentum—and shows how to improve completion, persuasion and conversion.",
+      ja: "ニュースレター、記事、提案書、販売コンテンツが、読者のどこで理解・関心・行動意欲を失っているかを診断し、読了率、訴求力、コンバージョンを高めるための編集改善ツール。"
     },
-    tags: { en: ["Writing", "Reader Experience", "Audit"], ja: ["文章", "読者体験", "診断"] },
+    tags: {
+      en: ["Reader Retention", "Persuasion", "Conversion"],
+      ja: ["読者維持", "訴求力", "コンバージョン"]
+    },
     href: "https://engage-audit.pages.dev/",
     status: { en: "Live", ja: "公開中" }
   },
@@ -44,10 +53,13 @@ const projects = [
     index: "04",
     title: "Snow Drop",
     subtitle: {
-      en: "A science-fiction story exploring agency, intimacy and the ethical questions that emerge as AI becomes part of human life.",
-      ja: "AIが人間の生活に入り込むことで生まれる主体性、親密さ、倫理の問題を描くSF作品。"
+      en: "A science-fiction narrative that explores how intimate relationships with AI may reshape agency, dependence, love and responsibility—making the emotional and ethical costs of technological convenience easier to confront.",
+      ja: "AIとの親密な関係が、人間の自由意思、依存、愛情、責任をどう変えるのかを物語として体験させ、技術の便利さだけでは見落とされる倫理的・感情的コストを考えるためのSF作品。"
     },
-    tags: { en: ["Fiction", "Ethics", "AI"], ja: ["物語", "倫理", "AI"] },
+    tags: {
+      en: ["Human Agency", "AI Ethics", "Speculative Fiction"],
+      ja: ["人間の主体性", "AI倫理", "SF"]
+    },
     href: "https://snowdrop-ex1.pages.dev",
     status: { en: "Live", ja: "公開中" }
   },
@@ -56,43 +68,70 @@ const projects = [
     index: "05",
     title: "CEO OS",
     subtitle: {
-      en: "A developing system for helping founders turn broad vision into priorities, decisions, resource allocation and execution.",
-      ja: "創業者の大きな構想を、優先順位、意思決定、資源配分、実行へ落とし込むための開発中の仕組み。"
+      en: "A decision system for founders who have more ideas than execution capacity, helping them translate vision into decision criteria, resource allocation and sequencing—while reducing reactive management and strategic fragmentation.",
+      ja: "構想が多すぎて優先順位が定まらない創業者が、ビジョンを意思決定基準、資源配分、実行順序へ変換し、場当たり的な経営とプロジェクト分散を防ぐための経営判断システム。"
     },
-    tags: { en: ["Strategy", "Decision-Making", "Execution"], ja: ["戦略", "意思決定", "実行"] },
+    tags: {
+      en: ["Founder Strategy", "Prioritization", "Execution"],
+      ja: ["創業者戦略", "優先順位", "実行"]
+    },
     status: { en: "In development", ja: "開発中" }
   },
   {
-    category: { en: "Investment Learning", ja: "投資学習" },
+    category: { en: "Executive Alignment", ja: "経営アライメント" },
     index: "06",
+    title: "CAO OS",
+    subtitle: {
+      en: "An executive alignment operating system that integrates fragmented market signals, customer needs, talent, cultural assets and organizational resources into one decision structure. It helps resolve misaligned assumptions, cross-functional fragmentation, competing priorities and stalled resource allocation—connecting hidden value to strategy, capital allocation, organizational commitment, execution and measurement.",
+      ja: "企業内に散在する市場シグナル、顧客ニーズ、人材、文化資産、経営資源を一つの判断構造へ統合し、認識のずれ、部門間分断、優先順位の衝突、資源配分の停滞を解消する経営アライメントOS。見過ごされている価値を特定し、戦略、資本配分、組織合意、実行、測定までを接続することで、構想を継続的な事業成果へ変換します。"
+    },
+    tags: {
+      en: ["Executive Alignment", "Decision Architecture", "Value Realization"],
+      ja: ["経営アライメント", "意思決定設計", "価値実現"]
+    },
+    status: { en: "In development", ja: "開発中" },
+    featured: true
+  },
+  {
+    category: { en: "Investment Analysis", ja: "投資分析" },
+    index: "07",
     title: "Investment Valuation Framework",
     subtitle: {
-      en: "A learning framework for examining business value, risk and strategic fit beyond a single financial snapshot.",
-      ja: "一時点の財務数字だけに頼らず、事業価値、リスク、戦略的な適合性を検討するための学習フレームワーク。"
+      en: "An investment analysis framework for evaluating business quality, competitive advantage, management risk and strategic fit alongside financial performance—helping investors and decision-makers avoid superficial or overstated valuations.",
+      ja: "投資家、経営者、学習者が、財務数値だけでは見えない事業の質、競争優位、経営リスク、戦略適合性まで含めて判断し、過大評価や表面的な投資判断を避けるための分析フレームワーク。"
     },
-    tags: { en: ["Finance", "Valuation", "Strategy"], ja: ["金融", "価値評価", "戦略"] },
+    tags: {
+      en: ["Business Quality", "Valuation", "Strategic Fit"],
+      ja: ["事業品質", "価値評価", "戦略適合性"]
+    },
     status: { en: "In development", ja: "開発中" }
   },
   {
     category: { en: "Practical Education", ja: "実践教育" },
-    index: "07",
+    index: "08",
     title: "Financial & Social Literacy",
     subtitle: {
-      en: "A practical learning project for understanding how companies, institutions, markets and capital interact in the real world.",
-      ja: "企業、制度、市場、資本が現実社会でどう関係し動くのかを理解するための実践学習プロジェクト。"
+      en: "A practical learning program that connects companies, governments, institutions, markets and capital into one understandable system—so learners can form independent judgments about business, investing, public policy and economic news.",
+      ja: "経済や金融を専門用語の暗記で終わらせず、企業、政府、制度、市場、資本の動きを一つの因果関係として理解し、ニュース、仕事、投資、社会問題について自分で判断できるようにする実践教育プログラム。"
     },
-    tags: { en: ["Finance", "Institutions", "Education"], ja: ["金融", "制度", "教育"] },
+    tags: {
+      en: ["Economic Literacy", "Systems Thinking", "Decision-Making"],
+      ja: ["経済教養", "システム思考", "意思決定"]
+    },
     status: { en: "In development", ja: "開発中" }
   },
   {
-    category: { en: "Cultural Practice", ja: "文化実践" },
-    index: "08",
+    category: { en: "Cultural Experience", ja: "文化体験" },
+    index: "09",
     title: "Bokkacha",
     subtitle: {
-      en: "A cultural concept that brings Japanese calligraphy, flowers and tea into one contemporary practice and shared experience.",
-      ja: "書・花・茶を一つの現代的な実践と共有体験として結び直す文化構想。"
+      en: "A participatory cultural format that brings calligraphy, flowers and tea into one contemporary experience—allowing modern and international audiences to understand Japanese aesthetics, ritual and philosophy through practice rather than observation.",
+      ja: "書・花・茶を別々の伝統文化として鑑賞するのではなく、一つの参加型体験へ再構成し、現代の生活者や海外の参加者が日本文化の美意識、所作、精神性を体験的に理解できる文化プログラム。"
     },
-    tags: { en: ["Culture", "Aesthetics", "Japan"], ja: ["文化", "美意識", "日本"] },
+    tags: {
+      en: ["Japanese Aesthetics", "Participatory Culture", "Embodied Learning"],
+      ja: ["日本美学", "参加型文化", "体験学習"]
+    },
     status: { en: "Concept", ja: "構想中" }
   }
 ];
