@@ -336,9 +336,17 @@ function render(lang = "en") {
               </div>
               <div class="project-action">
                 <span class="status">${p.status[lang]}</span>
- ${p.href
-  ? `<span class="project-arrow" aria-hidden="true"></span>`
-  : `<span class="project-arrow project-arrow--disabled" aria-hidden="true"></span>`}
+
+${p.href
+  ? `
+    <span class="project-arrow" aria-hidden="true">
+      <svg viewBox="0 0 24 24" focusable="false">
+        <path d="M7 17L17 7"></path>
+        <path d="M9 7H17V15"></path>
+      </svg>
+    </span>
+  `
+  : `<span class="no-link">—</span>`}
               </div>
             ${p.href ? `</a>` : `</article>`}
           `).join("")}
