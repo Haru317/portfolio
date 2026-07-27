@@ -107,9 +107,6 @@ app.innerHTML = `
         <img src="/haruno-profile.jpeg" alt="Haruno Ayukai, Value Realization Strategist" onerror="this.style.display='none'">
         <span class="portrait-caption">Systems · Strategy · Culture</span>
       </div>
-      <div class="hero-floating-logo reveal" aria-label="Delta Lambda Circle">
-        <img src="/delta-lambda-circle-logo.jpeg" alt="">
-      </div>
     </section>
 
     <section class="statement" id="practice">
@@ -154,7 +151,7 @@ app.innerHTML = `
     </section>
 
     <section class="framework" id="principles">
-      <div class="framework-mark reveal">
+      <div class="framework-mark">
         <img src="/delta-lambda-circle-logo.jpeg" alt="Delta Lambda Circle crest">
       </div>
       <div class="framework-copy reveal">
