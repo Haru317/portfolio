@@ -92,17 +92,20 @@ app.innerHTML = `
 
   <main id="top">
     <section class="hero">
-      <div class="hero-kicker reveal"><span></span> Independent systems practice · Japan</div>
-      <h1 class="reveal">I reveal what is<br><em>valuable but unseen</em>—<br>then design the system<br>that lets it compound.</h1>
-      <div class="hero-bottom reveal">
-        <p>Across human behavior, organizations, capital and culture, I turn latent capability into clear decisions, working structures and measurable progress.</p>
-        <a href="#projects" class="round-link" aria-label="Explore selected projects">
-          <span>Explore<br>the work</span><b>↓</b>
-        </a>
+      <div class="hero-copy">
+        <div class="hero-kicker reveal">Haruno Ayukai · Clair de Lune</div>
+        <div class="hero-title reveal">
+          <span class="role">Value Realization Strategist</span>
+          <h1>Revealing invisible value.<br>Designing the systems<br>that let it grow.</h1>
+        </div>
+        <div class="hero-bottom reveal">
+          <p>I translate latent human, organizational and cultural value into clear strategy, working systems and measurable progress.</p>
+          <a href="#projects">View selected work <span>↓</span></a>
+        </div>
       </div>
-      <div class="orb" aria-hidden="true">
-        <div class="orb-line one"></div><div class="orb-line two"></div><div class="orb-line three"></div>
-        <span class="orb-symbol">○</span>
+      <div class="hero-portrait reveal">
+        <img src="/haruno-profile.jpeg" alt="Haruno Ayukai, Value Realization Strategist">
+        <span class="portrait-caption">Systems · Strategy · Culture</span>
       </div>
     </section>
 
@@ -110,7 +113,7 @@ app.innerHTML = `
       <div class="eyebrow reveal">The practice</div>
       <div class="statement-copy reveal">
         <p>Most valuable things begin without a name: an instinct, a relationship, a cultural asset, a pattern hiding across disconnected evidence.</p>
-        <p class="muted">My work is to give that value an address—then build the framework, product or institution through which it can become useful.</p>
+        <p class="muted">My work gives that value an address, then builds the framework, product or institution through which it becomes useful.</p>
       </div>
       <div class="method reveal">
         <div><span>01</span><h3>Reveal</h3><p>Surface invisible capital and establish ground truth.</p></div>
@@ -124,7 +127,7 @@ app.innerHTML = `
       <div class="section-head reveal">
         <div>
           <div class="eyebrow">Selected work</div>
-          <h2>Ideas made<br><em>operational.</em></h2>
+          <h2>Ideas made operational.</h2>
         </div>
         <p>A living portfolio of frameworks, ventures and cultural experiments—each one an implementation of the same inquiry: how does hidden value become lasting value?</p>
       </div>
@@ -165,7 +168,7 @@ app.innerHTML = `
     <section class="identity">
       <div class="identity-copy reveal">
         <div class="eyebrow">Clair de Lune</div>
-        <blockquote>“I design what others<br>feel but cannot yet name.”</blockquote>
+        <blockquote>“I design what others feel but cannot yet name.”</blockquote>
       </div>
       <div class="identity-note reveal">
         <p>Born among forest, water and inherited ritual. Shaped by language, movement across cultures and a fascination with the structures beneath human choice.</p>
@@ -176,7 +179,7 @@ app.innerHTML = `
     <section class="contact">
       <div class="contact-inner reveal">
         <div class="eyebrow">Work together</div>
-        <h2>Have something valuable<br>that the world cannot<br><em>see clearly yet?</em></h2>
+        <h2>Have something valuable the world cannot see clearly yet?</h2>
         <a href="mailto:sppn2zu9@gmail.com">Start a conversation <span>↗</span></a>
       </div>
     </section>
