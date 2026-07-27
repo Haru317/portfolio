@@ -287,7 +287,7 @@ footer .brand-logo { width: 54px; height: 54px; }
 
 @media (max-width: 800px) {
   .hero {
-    grid-template-rows: 60svh auto;
+    grid-template-rows: 55svh auto;
   }
 
   .hero-portrait {
