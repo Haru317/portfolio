@@ -99,12 +99,14 @@ app.innerHTML = `
           <span class="role">Value Realization Strategist</span>
           <h1>
             <span>Revealing invisible value.</span>
-            <span>Designing the systems</span>
-            <span>that let it grow.</span>
+            <span>Designing the systems that let it grow.</span>
           </h1>
         </div>
         <div class="hero-bottom reveal">
-          <p>I translate latent human, organizational and cultural value into clear strategy, working systems and measurable progress.</p>
+          <p>
+            <span>I translate latent human, organizational and cultural value</span>
+            <span>into clear strategy, working systems and measurable progress.</span>
+          </p>
           <a href="#projects">View selected work <span>↓</span></a>
         </div>
       </div>
