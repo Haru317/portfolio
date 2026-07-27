@@ -325,27 +325,41 @@ function render(lang = "en") {
           </div>
           <p>${t.work.intro}</p>
         </div>
-        <div class="project-list">
 
 
+<div class="project-list">
+  ${projects.map((p) => `
+    ${p.href
+      ? `<a class="project reveal ${p.featured ? "featured" : ""}" href="${p.href}" target="_blank" rel="noreferrer" aria-label="${t.work.open} ${p.title}">`
+      : `<article class="project reveal ${p.featured ? "featured" : ""}">`
+    }
 
-  
-              <div class="project-main">
-                <h3>${p.title}</h3>
-                <p>${p.subtitle[lang]}</p>
-                <div class="tags">${p.tags[lang].map((tag) => `<span>${tag}</span>`).join("")}</div>
-              </div>
-              <div class="project-action">
-                <span class="status">${p.status[lang]}</span>
-${p.href
-  ? '<span class="project-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M7 17L17 7"></path><path d="M9 7H17V15"></path></svg></span>'
-  : '<span class="no-link">—</span>'}
-  
-              </div>
-            ${p.href ? `</a>` : `</article>`}
-          `).join("")}
+      <div class="project-meta">
+        <span>${p.index}</span>
+        <span>${p.category[lang]}</span>
+      </div>
+
+      <div class="project-main">
+        <h3>${p.title}</h3>
+        <p>${p.subtitle[lang]}</p>
+        <div class="tags">
+          ${p.tags[lang].map((tag) => `<span>${tag}</span>`).join("")}
         </div>
-        <p class="portfolio-note reveal">${t.work.note}</p>
+      </div>
+
+      <div class="project-action">
+        <span class="status">${p.status[lang]}</span>
+        ${p.href
+          ? '<span class="project-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M7 17L17 7"></path><path d="M9 7H17V15"></path></svg></span>'
+          : '<span class="no-link">—</span>'
+        }
+      </div>
+
+    ${p.href ? `</a>` : `</article>`}
+  `).join("")}
+</div>
+
+   
       </section>
 
       <section class="framework" id="principles">
