@@ -170,12 +170,28 @@ app.innerHTML = `
 
     <section class="identity">
       <div class="identity-copy reveal">
-        <div class="eyebrow">Clair de Lune</div>
-        <blockquote>“I design what others feel but cannot yet name.”</blockquote>
+        <div class="eyebrow">Lineage & practice</div>
+        <blockquote>“I perceive what remains unspoken—and give it form.”</blockquote>
+        <p class="identity-bio">Born into a centuries-old family of regional stewards, scholars and artists, within a 1,300-year living tradition that has kept the same flame alight for more than a millennium. I inherited a free, sovereign temperament, yet was raised in a world where duty, restraint and consideration for others were quietly absolute. That tension trained me to read the human dynamics beneath decisions, institutions and culture. It is now the foundation of my work: revealing invisible capital and transforming it into measurable impact.</p>
       </div>
-      <div class="identity-note reveal">
-        <p>Born among forest, water and inherited ritual. Shaped by language, movement across cultures and a fascination with the structures beneath human choice.</p>
-        <p>My sensibility is quiet; my work is exacting. I build for transparency, accountability, resilience and ground truth.</p>
+      <div class="identity-credentials reveal">
+        <div>
+          <span>Practice</span>
+          <b>Invisible Capital Architect</b>
+          <small>Transforming invisible value into measurable impact</small>
+        </div>
+        <div>
+          <span>Founder</span>
+          <b>Human Connection Ecosystem</b>
+        </div>
+        <div>
+          <span>Global stage</span>
+          <b>Miss Globe Japan ’18</b>
+        </div>
+        <div>
+          <span>Living lineage</span>
+          <b>630 years of scholarship<br>within a 1,300-year tradition</b>
+        </div>
       </div>
     </section>
 
