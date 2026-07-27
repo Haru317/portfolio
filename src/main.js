@@ -6,91 +6,91 @@ const projects = [
     index: "01",
     title: "Human Connection Ecosystem",
     subtitle: {
-      en: "A structural framework for why people adopt, stay, contribute and belong.",
-      ja: "人が参加し、留まり、貢献し、帰属する理由を構造化するフレームワーク。"
+      en: "A working model for understanding what helps people join, trust, contribute and remain part of a community.",
+      ja: "人がコミュニティに参加し、信頼し、貢献し、関わり続ける条件を整理した実践モデル。"
     },
-    tags: { en: ["Behavior", "Engagement", "System"], ja: ["行動", "エンゲージメント", "システム"] },
+    tags: { en: ["Behavior", "Community", "Systems"], ja: ["行動", "コミュニティ", "仕組み"] },
     href: "https://hce.pages.dev/",
     status: { en: "Live", ja: "公開中" },
     featured: true
   },
   {
-    category: { en: "Human Systems", ja: "人間システム" },
+    category: { en: "Talent & Community", ja: "人材・コミュニティ" },
     index: "02",
     title: "Pendle Talent Galaxy",
     subtitle: {
-      en: "A professional talent-chemistry platform for discovering and activating hidden capability.",
-      ja: "埋もれた才能を発見し、組み合わせ、活性化するプロフェッショナル人材プラットフォーム。"
+      en: "A digital concept for making overlooked strengths visible and helping people find where their abilities can work together.",
+      ja: "見過ごされている強みを可視化し、互いの能力が活きる組み合わせを見つけるためのデジタル構想。"
     },
-    tags: { en: ["AI", "Talent", "Social OS"], ja: ["AI", "人材", "ソーシャルOS"] },
+    tags: { en: ["Talent", "Matching", "Community"], ja: ["才能", "マッチング", "コミュニティ"] },
     href: "https://pendle-talent-galaxy.pages.dev/",
     status: { en: "Live", ja: "公開中" },
     featured: true
   },
   {
-    category: { en: "Editorial Systems", ja: "編集システム" },
+    category: { en: "Editorial Diagnosis", ja: "編集診断" },
     index: "03",
     title: "Engage Audit",
     subtitle: {
-      en: "An editorial diagnostic that reveals where attention, clarity and reader momentum break down.",
-      ja: "読者の注意、理解、読み進める力がどこで途切れるかを可視化する編集診断。"
+      en: "A diagnostic tool that identifies where writing loses attention, clarity or momentum, and what should be improved.",
+      ja: "文章のどこで注意・理解・読了意欲が途切れるかを特定し、改善点を示す診断ツール。"
     },
-    tags: { en: ["Writing", "Marketing", "Audit"], ja: ["文章", "マーケティング", "診断"] },
+    tags: { en: ["Writing", "Reader Experience", "Audit"], ja: ["文章", "読者体験", "診断"] },
     href: "https://engage-audit.pages.dev/",
     status: { en: "Live", ja: "公開中" }
   },
   {
-    category: { en: "Narrative", ja: "物語" },
+    category: { en: "Narrative & Ethics", ja: "物語・倫理" },
     index: "04",
     title: "Snow Drop",
     subtitle: {
-      en: "An ethical AI science-fiction project exploring agency, intimacy and the future of being human.",
-      ja: "主体性、親密さ、人間であることの未来を探究する、倫理的AIサイエンスフィクション。"
+      en: "A science-fiction story exploring agency, intimacy and the ethical questions that emerge as AI becomes part of human life.",
+      ja: "AIが人間の生活に入り込むことで生まれる主体性、親密さ、倫理の問題を描くSF作品。"
     },
     tags: { en: ["Fiction", "Ethics", "AI"], ja: ["物語", "倫理", "AI"] },
     href: "https://snowdrop-ex1.pages.dev",
     status: { en: "Live", ja: "公開中" }
   },
   {
-    category: { en: "Decision Systems", ja: "意思決定システム" },
+    category: { en: "Founder Decision-Making", ja: "創業者の意思決定" },
     index: "05",
     title: "CEO OS",
     subtitle: {
-      en: "A decision architecture for founders translating vision into priorities, capital and execution.",
-      ja: "創業者のビジョンを、優先順位・資本配分・実行へ変換する意思決定アーキテクチャ。"
+      en: "A developing system for helping founders turn broad vision into priorities, decisions, resource allocation and execution.",
+      ja: "創業者の大きな構想を、優先順位、意思決定、資源配分、実行へ落とし込むための開発中の仕組み。"
     },
-    tags: { en: ["Strategy", "Leadership", "Operations"], ja: ["戦略", "リーダーシップ", "実行"] },
+    tags: { en: ["Strategy", "Decision-Making", "Execution"], ja: ["戦略", "意思決定", "実行"] },
     status: { en: "In development", ja: "開発中" }
   },
   {
-    category: { en: "Capital Systems", ja: "資本システム" },
+    category: { en: "Investment Learning", ja: "投資学習" },
     index: "06",
     title: "Investment Valuation Framework",
     subtitle: {
-      en: "A framework for examining value, risk and strategic fit beyond conventional financial snapshots.",
-      ja: "従来の財務スナップショットを越えて、価値・リスク・戦略適合性を捉える評価フレームワーク。"
+      en: "A learning framework for examining business value, risk and strategic fit beyond a single financial snapshot.",
+      ja: "一時点の財務数字だけに頼らず、事業価値、リスク、戦略的な適合性を検討するための学習フレームワーク。"
     },
-    tags: { en: ["Finance", "PE / VC", "Valuation"], ja: ["金融", "PE / VC", "価値評価"] },
+    tags: { en: ["Finance", "Valuation", "Strategy"], ja: ["金融", "価値評価", "戦略"] },
     status: { en: "In development", ja: "開発中" }
   },
   {
-    category: { en: "Education", ja: "教育" },
+    category: { en: "Practical Education", ja: "実践教育" },
     index: "07",
     title: "Financial & Social Literacy",
     subtitle: {
-      en: "A practical learning system for understanding how society, institutions and capital actually move.",
-      ja: "社会・制度・資本が実際にどう動くかを理解するための実践的学習システム。"
+      en: "A practical learning project for understanding how companies, institutions, markets and capital interact in the real world.",
+      ja: "企業、制度、市場、資本が現実社会でどう関係し動くのかを理解するための実践学習プロジェクト。"
     },
-    tags: { en: ["Finance", "Education", "Society"], ja: ["金融", "教育", "社会"] },
+    tags: { en: ["Finance", "Institutions", "Education"], ja: ["金融", "制度", "教育"] },
     status: { en: "In development", ja: "開発中" }
   },
   {
-    category: { en: "Culture", ja: "文化" },
+    category: { en: "Cultural Practice", ja: "文化実践" },
     index: "08",
     title: "Bokkacha",
     subtitle: {
-      en: "A contemporary cultural format connecting Japanese calligraphy, flowers and the ceremony of tea.",
-      ja: "書・花・茶の営みを現代へ接続する、新しい文化形式。"
+      en: "A cultural concept that brings Japanese calligraphy, flowers and tea into one contemporary practice and shared experience.",
+      ja: "書・花・茶を一つの現代的な実践と共有体験として結び直す文化構想。"
     },
     tags: { en: ["Culture", "Aesthetics", "Japan"], ja: ["文化", "美意識", "日本"] },
     status: { en: "Concept", ja: "構想中" }
@@ -102,31 +102,33 @@ const copy = {
     nav: ["Practice", "Projects", "Principles", "Lineage"],
     conversation: "Start a conversation",
     menu: "Open menu",
-    role: "Value Realization Strategist",
+    role: "Independent Strategist & Systems Designer",
     hero: [
-      "Revealing invisible value.", "Designing the systems that let it grow."],
-    heroBody: [
-      "I translate latent human, organizational and cultural value",
-      "into clear strategy, systems and measurable frameworks."
+      "Turning complex ideas",
+      "into clear, usable systems."
     ],
-    selected: "View selected work",
-    portrait: "Systems · Strategy · Culture",
+    heroBody: [
+      "I research difficult questions, clarify what matters,",
+      "and develop frameworks, learning tools and digital products around them."
+    ],
+    selected: "View projects",
+    portrait: "Research · Strategy · Design",
     practice: {
-      label: "The practice",
-      lead: "Most valuable things begin without a name: an instinct, a relationship, a cultural asset, a pattern hiding across disconnected evidence.",
-      follow: "My work gives that value an address, then builds the framework, product or institution through which it becomes useful.",
+      label: "How I work",
+      lead: "My work usually begins with a question that is important but still difficult to explain, evaluate or act on.",
+      follow: "I investigate the context, separate assumptions from evidence, and turn what I learn into a model, tool, experience or system that can be used and tested.",
       methods: [
-        ["Reveal", "Surface invisible capital and establish ground truth."],
-        ["Connect", "Translate context and align people, incentives and decisions."],
-        ["Architect", "Turn insight into a coherent model, experience or operating system."],
-        ["Realize", "Test, measure and compound value through real-world use."]
+        ["Investigate", "Gather context, evidence and competing explanations before defining the problem."],
+        ["Clarify", "Identify the central pattern and explain it in language other people can use."],
+        ["Design", "Translate the insight into a framework, learning experience, digital product or operating model."],
+        ["Improve", "Test the result in use, observe what fails and revise the system."]
       ]
     },
     work: {
-      label: "Selected work",
-      title: "Ideas made operational.",
-      intro: "A living portfolio of frameworks, ventures and cultural experiments—each one an implementation of the same inquiry: how does hidden value become lasting value?",
-      note: "The full portfolio also spans career architecture, trauma integration, ethical education, visual strategy, cultural pairing, social infrastructure and diplomatic biography.",
+      label: "Selected projects",
+      title: "Questions turned into working forms.",
+      intro: "These projects show how I work across human behavior, community, writing, education, culture and decision-making. Some are live tools; others are active research and development.",
+      note: "The portfolio is intentionally cross-disciplinary. The common thread is the same: making a difficult idea easier to understand, use, test and develop further.",
       open: "Open"
     },
     principles: {
@@ -158,30 +160,30 @@ const copy = {
     nav: ["実践", "プロジェクト", "原則", "系譜"],
     conversation: "対話をはじめる",
     menu: "メニューを開く",
-    role: "価値翻訳ストラテジスト",
-    hero: ["見えない価値を明らかにし", "育つ仕組みを設計する。"],
+    role: "独立系ストラテジスト・システムデザイナー",
+    hero: ["複雑な構想を整理し、", "理解し、使える仕組みへ変える。"],
     heroBody: [
-      "人・組織・文化に潜在する価値を、",
-      "明確な戦略、システム、測定可能なフレームワークへ翻訳します。"
+      "まだ説明しにくい問いを調べ、何が重要かを明確にし、",
+      "フレームワーク、学習ツール、デジタルプロダクトとして形にしています。"
     ],
-    selected: "実績を見る",
-    portrait: "仕組み · 戦略 · 文化",
+    selected: "プロジェクトを見る",
+    portrait: "リサーチ · 戦略 · デザイン",
     practice: {
-      label: "実践方法",
-      lead: "価値あるものは、名前を持たないところから始まります。直感、関係性、文化資産、そして断片的な事実の間に潜むパターン。",
-      follow: "私はその価値に所在を与え、社会で機能するためのフレームワーク、プロダクト、組織へと設計します。",
+      label: "仕事の進め方",
+      lead: "私の仕事は、重要ではあるものの、まだうまく説明できず、評価や行動につなげにくい問いから始まります。",
+      follow: "背景を調べ、事実と仮説を分け、見えてきた構造を、実際に使いながら検証できるモデル、ツール、体験、仕組みへ変えます。",
       methods: [
-        ["発見する", "見えない資本を可視化し、判断の基準となる事実を確立する。"],
-        ["接続する", "文脈を翻訳し、人・動機・意思決定を整合させる。"],
-        ["設計する", "洞察を、一貫したモデル、体験、運用システムへ構造化する。"],
-        ["実現する", "実社会で検証・測定し、価値を持続的に増幅させる。"]
+        ["調べる", "背景、事実、異なる解釈を集め、問題を決めつけずに捉える。"],
+        ["明確にする", "中心にある構造を見つけ、他者が理解し使える言葉にする。"],
+        ["形にする", "理解したことを、フレームワーク、学習体験、デジタルプロダクト、運用モデルへ変える。"],
+        ["改善する", "実際の利用から不具合や不足を見つけ、仕組みを更新する。"]
       ]
     },
     work: {
-      label: "選定プロジェクト",
-      title: "アイデアを仕組みへ。",
-      intro: "フレームワーク、事業、文化実験からなる実装の記録です。共通する問いはひとつ——見えない価値を、どう持続する価値へ変えるか。",
-      note: "キャリア設計、トラウマ統合、倫理教育、視覚戦略、文化的ペアリング、社会基盤、外交的バイオグラフィー策定まで扱います。",
+      label: "主なプロジェクト",
+      title: "問いを、使える形へ。",
+      intro: "人の行動、コミュニティ、文章、教育、文化、意思決定を扱ってきたプロジェクトです。公開中のツールと、現在開発・検証している構想を含みます。",
+      note: "領域は複数にまたがりますが、共通しているのは、複雑な考えを理解しやすく、使いやすく、検証しながら育てられる形へ変えることです。",
       open: "開く"
     },
     principles: {
@@ -218,8 +220,8 @@ function render(lang = "en") {
   document.documentElement.lang = lang;
   document.title = lang === "en" ? "Clair de Lune — Project Portfolio" : "Clair de Lune — プロジェクトポートフォリオ";
   document.querySelector('meta[name="description"]').content = lang === "en"
-    ? "Clair de Lune — systems, frameworks and ventures that reveal invisible value and turn it into measurable human and societal progress."
-    : "Clair de Lune — 見えない価値を明らかにし、人と社会の測定可能な前進へ変える仕組み、フレームワーク、事業。";
+    ? "Clair de Lune — independent research, strategy and systems design across human behavior, community, culture, education and decision-making."
+    : "Clair de Lune — 人の行動、コミュニティ、文化、教育、意思決定を扱う、独立したリサーチ、戦略、仕組みづくりのポートフォリオ。";
 
   app.innerHTML = `
     <div class="grain" aria-hidden="true"></div>
