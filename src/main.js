@@ -123,7 +123,7 @@ const projects = [
   {
     category: { en: "Cultural Experience", ja: "文化体験" },
     index: "09",
-    title: "Bokkacha",
+    title: "墨華茶 - Bokkacha",
     subtitle: {
       en: "A participatory cultural format that brings calligraphy, flowers and tea into one contemporary experience—allowing modern and international audiences to understand Japanese aesthetics, ritual and philosophy through practice rather than observation.",
       ja: "書・花・茶を別々の伝統文化として鑑賞するのではなく、一つの参加型体験へ再構成し、現代の生活者や海外の参加者が日本文化の美意識、所作、精神性を体験的に理解できる文化プログラム。"
