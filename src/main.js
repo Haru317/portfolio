@@ -49,8 +49,24 @@ const projects = [
     status: { en: "Live", ja: "公開中" }
   },
   {
+  category: { en: "Emotional Intelligence", ja: "感情インテリジェンス" },
+  index: "04",
+  title: "Emotional Statements",
+  subtitle: {
+    en: "A concept platform that turns emotional signals embedded in meetings, learning records, facial expression and language into practical insight. Rather than merely labeling emotion, it helps teams identify emerging misalignment, disengagement and opportunity loss—then apply that understanding to facilitation, learning, decision-making and organizational alignment.",
+    ja: "会議、学習記録、表情、言葉の中に埋もれている感情シグナルを、実際に活用できるインサイトへ変換するコンセプトプラットフォーム。感情を分類するだけでなく、認識のずれ、離脱、機会損失が表面化する前に兆候を捉え、ファシリテーション、学習改善、意思決定、組織アライメントへ活用できる形にします。"
+  },
+  tags: {
+    en: ["Emotional Intelligence", "Alignment", "Meeting Insight"],
+    ja: ["感情知性", "アライメント", "会議インサイト"]
+  },
+  href: "https://emotional-statements.pages.dev/",
+  status: { en: "Live", ja: "公開中" },
+  featured: true
+},
+  {
     category: { en: "Narrative & Ethics", ja: "物語・倫理" },
-    index: "04",
+    index: "05",
     title: "Snow Drop",
     subtitle: {
       en: "A science-fiction narrative that explores how intimate relationships with AI may reshape agency, dependence, love and responsibility—making the emotional and ethical costs of technological convenience easier to confront.",
@@ -65,7 +81,7 @@ const projects = [
   },
   {
     category: { en: "Founder Decision-Making", ja: "創業者の意思決定" },
-    index: "05",
+    index: "06",
     title: "CEO OS",
     subtitle: {
       en: "A decision system for founders who have more ideas than execution capacity, helping them translate vision into decision criteria, resource allocation and sequencing—while reducing reactive management and strategic fragmentation.",
@@ -79,7 +95,7 @@ const projects = [
   },
   {
     category: { en: "Executive Alignment", ja: "経営アライメント" },
-    index: "06",
+    index: "07",
     title: "CAO OS",
     subtitle: {
       en: "An executive alignment operating system that integrates fragmented market signals, customer needs, talent, cultural assets and organizational resources into one decision structure. It helps resolve misaligned assumptions, cross-functional fragmentation, competing priorities and stalled resource allocation—connecting hidden value to strategy, capital allocation, organizational commitment, execution and measurement.",
@@ -94,7 +110,7 @@ const projects = [
   },
   {
     category: { en: "Investment Analysis", ja: "投資分析" },
-    index: "07",
+    index: "08",
     title: "Investment Valuation Framework",
     subtitle: {
       en: "An investment analysis framework for evaluating business quality, competitive advantage, management risk and strategic fit alongside financial performance—helping investors and decision-makers avoid superficial or overstated valuations.",
@@ -108,7 +124,7 @@ const projects = [
   },
   {
     category: { en: "Practical Education", ja: "実践教育" },
-    index: "08",
+    index: "09",
     title: "Financial & Social Literacy",
     subtitle: {
       en: "A practical learning program that connects companies, governments, institutions, markets and capital into one understandable system—so learners can form independent judgments about business, investing, public policy and economic news.",
@@ -122,7 +138,7 @@ const projects = [
   },
   {
     category: { en: "Cultural Experience", ja: "文化体験" },
-    index: "09",
+    index: "10",
     title: "墨華茶 - Bokkacha",
     subtitle: {
       en: "A participatory cultural format that brings calligraphy, flowers and tea into one contemporary experience—allowing modern and international audiences to understand Japanese aesthetics, ritual and philosophy through practice rather than observation.",
